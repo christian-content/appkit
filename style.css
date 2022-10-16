@@ -1,0 +1,614 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: bogart trial light;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(88, 88, 88);
+}
+header {
+    display: inline-flex;
+    margin-left: 10px;
+}
+h1 {
+    color: rgb(226, 239, 248);
+    font-size: 35px;
+    text-align: center;
+}
+h2 {
+    color: antiquewhite;
+    font-size: 23px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: 500;
+}
+img {
+    margin-top: -10px;
+}
+span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topbutton img{
+    width: 100px;
+    left: 20px;
+    margin-top: 260px;
+    position:fixed;
+    cursor:pointer;
+    transition: all 1s;
+    }
+.box-model {
+    background-image:url(image/hero-1.jpg);
+    height: 560px;
+}
+.logo {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.logo h4 {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(left, rgb(240, 107, 107) 50%, rgb(183, 245, 231) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box-menu ul {
+    display: flex;
+    margin-left: 360px;
+    margin-top: 35px;
+}
+.box-menu li {
+    list-style: none;
+}
+.box-menu li a {
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(245, 220, 220);
+    font-weight: 600;
+}
+.box-menu  li a:hover {
+    border-top: 3px solid rgb(250, 241, 114);
+    border-bottom: 3px solid rgb(250, 241, 114);
+    transition: all 0.4s;
+    font-size: 22px;
+}
+.box-model p{
+    float: left;
+    display: block;
+    width: 400px;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 130px;
+    margin-top: 100px;
+    color: rgb(243, 203, 247);
+}
+.image {
+    margin-left: 370px;
+}
+.image img {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.block1 {
+    width: 330px;
+    margin-left: 0;
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 2px solid antiquewhite;
+}
+.block1 p {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    color: rgb(212, 232, 250);
+}
+.block1 img {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.block1 h3 {
+    font-size: 23px;
+    color: rgb(201, 202, 200);
+    margin-left: 8px;
+}
+.block2 {
+    width: 330px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 2px solid antiquewhite;
+}
+.block2 p {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    color: rgb(212, 232, 250);
+}
+.block2 img {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.block2 h3 {
+    font-size: 23px;
+    color: rgb(201, 202, 200);
+    text-align: center;
+}
+.block3 {
+    width: 330px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 2px solid antiquewhite;
+}
+.block3 p {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(212, 232, 250);
+}
+.block3 img {
+    margin-left: 113px;
+    margin-top: 5px;
+}
+.block3 h3 {
+    font-size: 23px;
+    color: rgb(201, 202, 200);
+    margin-left: 27px;
+}
+.box-shadow {
+    background-image:url(image/jola.jpg) ;
+    height: 830px;
+    margin-bottom: -27px;
+}
+.box-shadow h1 {
+    margin-top:700px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.box-1  {
+    display: inline-flex;
+    margin-left: 200px;
+}
+.box-1 img {
+    margin-right: 10px;
+    height: 90px;
+    margin-top: 20px;
+}
+.box-reet {
+    background-color: rgb(54, 70, 64);
+    width: 600px;
+    height: 140px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+.box-reet p {
+    color: antiquewhite;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.box-reet i {
+    margin-left: 70px;
+    color: rgb(207, 223, 238);
+    border-bottom: 1.5px solid seashell;
+}
+.box-2  {
+    margin-left: 600px;
+    display: inline-flex;
+}
+.box-2 img {
+    margin-left: 10px;
+    height: 80px;
+    margin-top: 20px;
+}
+.box-reet-2{
+    background-color: rgb(54, 70, 64);
+    width: 600px;
+    height: 120px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+.box-reet-2 p {
+    color: antiquewhite;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.box-reet-2 i {
+    margin-left: 200px;
+    color: rgb(207, 223, 238);
+    border-bottom: 1.5px solid seashell;
+}
+.box-3  {
+    margin-left: 200px;
+    display: inline-flex;
+}
+.box-3 img {
+    margin-left: 10px;
+    height: 80px;
+    margin-top: 20px;
+}
+.box-reet-3 {
+    background-color: rgb(54, 70, 64);
+    width: 600px;
+    height: 120px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+.box-reet-3 p {
+    color: antiquewhite;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.box-reet-3 i {
+    margin-left: 200px;
+    color: rgb(207, 223, 238);
+    border-bottom: 1.5px solid seashell;
+}
+.box-4  {
+    margin-left: 600px;
+    display: inline-flex;
+}
+.box-4 img {
+    margin-left: 10px;
+    height: 80px;
+    margin-top: 20px;
+}
+.box-reet-4 {
+    background-color: rgb(54, 70, 64);
+    width: 600px;
+    height: 140px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+.box-reet-4 p {
+    color: antiquewhite;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.box-reet-4 i {
+    margin-left: 200px;
+    color: rgb(207, 223, 238);
+    border-bottom: 1.5px solid seashell;
+}
+.box-man {
+    background-image: url(image/fon.jpg);
+    height: 820px;
+}
+.box-man h1 {
+    font-size: 40px;
+    padding-top: 40px;
+}
+.box-man h3 {
+    color: rgb(194, 192, 190);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -20px;
+}
+.box-man p {
+    text-align: center;
+    color: rgb(226, 223, 218);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.blockk {
+    display: inline-flex;
+}
+.block-seet {
+    background-color: rgba(252, 233, 209, 0.192);
+    width: 300px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    height: 515px;
+}
+.block-seet img {
+    height: 100px;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+.block-seet h2 {
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: -6px;
+}
+.block-seet h4 {
+    text-align: center;
+    color: rgb(250, 247, 243);
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 2px solid antiquewhite;
+    width: 200px;
+    margin-left: 50px;
+}
+.block-seet p {
+    color: antiquewhite;
+    font-size: 16px;
+    margin-left: 5px;
+    text-align: center;
+    margin-right: 5px;
+}
+.block-seet a {
+    color: rgb(127, 168, 255);
+    text-decoration: none;
+}
+.block-seet a:hover {
+    text-decoration: underline;
+    color: rgb(191, 191, 252);
+}
+.img {
+    margin-left: 65px;
+}
+.img img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.block-sss {
+    background-color: rgba(252, 233, 209, 0.192);
+    width: 300px;
+    height: 515px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.block-sss img {
+    height: 100px;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+.block-sss h2 {
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: -6px;
+}
+.block-sss h4 {
+    text-align: center;
+    color: rgb(250, 247, 243);
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 2px solid antiquewhite;
+    width: 220px;
+    margin-left: 40px;
+}
+.block-sss p {
+    color: antiquewhite;
+    font-size: 16px;
+    margin-left: 5px;
+    text-align: center;
+    margin-right: 5px;
+}
+.block-sss a {
+    color: rgb(127, 168, 255);
+    text-decoration: none;
+}
+.block-sss a:hover {
+    text-decoration: underline;
+    color: rgb(191, 191, 252);
+}
+.block-sss a img {
+    width: 40px;
+    height: 40px;
+    margin-left: 118px;
+}
+.nett-main h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line {
+    display: inline-flex;
+}
+.line-1 {
+    width: 300px;
+    height: 480px;
+    margin-bottom: 20px;
+    background-color: rgba(190, 164, 158, 0.555);
+    margin-left: 200px;
+    margin-right: 30px;
+}
+.line-1 h1 {
+    margin-left: 0px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line-1 h2 {
+    margin-left: 120px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.line-1 nav {
+    margin-left: -40px;
+}
+.line-1 span {
+    font-size: 60px;
+    color: rgb(245, 242, 236);
+}
+.line-1 p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.line-1 a {
+    text-decoration: none;
+    display: block;
+    color: rgba(250, 235, 215, 0.705);
+    text-align: center;
+    font-size: 18px;
+}
+.line-1 a:hover {
+    color: rgba(240, 255, 255, 0.767);
+}
+.line-1 button {
+    margin-top: 50px;
+    background-color: rgb(141, 119, 119);
+    color: antiquewhite;
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+.line-1 button a {
+    font-size: 20px;
+    margin-top: 3px;
+    font-family: bogart trial light;
+}
+.line-1 button:hover {
+   background-color: rgb(192, 156, 156);
+}
+.line-2 {
+    width: 300px;
+    height: 480px;
+    margin-right: 30px;
+    margin-bottom: 20px;    
+    background-color: rgba(144, 168, 128, 0.555);
+}
+.line-2 h1 {
+    margin-left: 0px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line-2 h2 {
+    margin-left: 95px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.line-2 nav {
+    margin-left: -15px;
+}
+.line-2 span {
+    font-size: 60px;
+    color: rgb(245, 242, 236);
+}
+.line-2 p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.line-2 a {
+    text-decoration: none;
+    display: block;
+    color: rgba(250, 235, 215, 0.705);
+    text-align: center;
+    font-size: 18px;
+}
+.line-2 a:hover {
+    color: rgba(240, 255, 255, 0.767);
+}
+.line-2 button {
+    margin-top: 50px;
+    background-color: rgb(110, 133, 111);
+    color: antiquewhite;
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+.line-2 button a {
+    font-size: 20px;
+    margin-top: 3px;
+    font-family: bogart trial light;
+}
+.line-2 button:hover {
+   background-color: rgb(156, 192, 158);
+}
+.line-3 {
+    width: 300px;
+    height: 490px;
+    margin-bottom: 20px; 
+    background-color: rgba(90, 153, 142, 0.555);
+}
+.line-3 h1 {
+    margin-left: 0px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line-3 h2 {
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.line-3 span {
+    font-size: 60px;
+    color: rgb(245, 242, 236);
+}
+.line-3 p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.line-3 a {
+    text-decoration: none;
+    display: block;
+    color: rgba(250, 235, 215, 0.705);
+    text-align: center;
+    font-size: 18px;
+}
+.line-3 a:hover {
+    color: rgba(240, 255, 255, 0.767);
+}
+.line-3 button {
+    margin-top: 50px;
+    background-color: rgb(91, 119, 115);
+    color: antiquewhite;
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+.line-3 button a {
+    font-size: 20px;
+    margin-top: 3px;
+    font-family: bogart trial light;
+}
+.line-3 button:hover {
+   background-color: rgb(128, 170, 159);
+}
+.foot-menu  {
+    background-color: rgba(250, 235, 215, 0.137);
+    background-image: url(image/map.png) ;
+    border: 2px solid skyblue;
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-right: 50px;
+    height: 400px;
+}
+.foot-menu h1 {
+    margin-top: 60px;
+    font-size: 50px;
+}
+.foot-menu button {
+    width: 200px;
+    height: 70px;
+    background-color: rgb(53, 53, 56);
+    margin-left: 540px;
+    margin-top: 50px;
+}
+.foot-menu a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: bogart trial light;
+    font-weight: 600;
+}
+.foot-menu button:hover {
+    border: 3px solid rgb(73, 68, 67);
+    background-color: rgb(179, 165, 165);
+    color: rgb(24, 24, 23);
+}
